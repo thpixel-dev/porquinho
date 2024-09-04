@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center; 
+}
+
+.cofrinho {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="number"] {
+    width: 50px;
+    height: 25px;
+    margin: 10px auto; 
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="number"]:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+.result {
+    font-weight: bold;
+    color: #666;
+    text-align: center; 
+}
+
+.result.true {
+    color: #0f0;
+}
+
+.result.false {
+    color: #f00;
+}
